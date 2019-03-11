@@ -1,0 +1,169 @@
+GUI:
+  MysticWell:
+    Enchanter:
+      Material: 'ENCHANTMENT_TABLE' #List of materials can be found here - INSERT LINK HERE FOR MATERIALS
+      Title: '&dMystic Well' #The name of the item
+      Lore:
+      - '&7Find a &bMystic Bow&7, &eMystic'
+      - '&eSword &7or &cP&6a&en&at&9s &7from'
+      - '&7killing players.'
+      - ' '
+      - '&7Enchant these items in the well'   
+      - '&7for tons of buffs.'
+      - ' '
+      - '&dClick an item in your inventory!'
+    Enchanter-Enabled:
+      Material: 'ENCHANTMENT_TABLE' #List of materials can be found here - INSERT LINK HERE FOR MATERIALS
+      Title: '&dMystic Well' #The name of the item
+      Lore:
+      - '&7Upgrade: &e%tier%'
+      - '&7Cost: &6%cost%g'
+      - ' '
+      - '&eClick to upgrade!'
+#####################
+#  _   _  _      __ #
+# |_) |_ |_) |/ (_  #
+# |   |_ | \ |\ __) #
+#####################     
+  Shop:
+    sword:
+      Permission: 'falconseeker.hi' #Permission needed to click the item and equip the perk
+      Material: 'DIAMOND_SWORD' #List of materials can be found here - INSERT LINK HERE FOR MATERIALS
+      Name: '&eDiamond' #The name of the item
+      Slot: 11 #Slot in which the item will appear in.
+      Cost: 150
+      Lore:
+      - '&7'
+      - '&7Lost on death.'
+      - '&7Cost: &6150g'
+      - '&eClick to purchase!'     
+    obsidian:
+      Permission: 'falconseeker.hi'
+      Material: 'OBSIDIAN'
+      Name: '&eObsidian'
+      Slot: 12 
+      Cost: 50
+      Lore:
+      - '&7Remains for 120 seconds.'
+      - '&7 '
+      - '&7Lost on death.'
+      - '&7Cost: &650g'
+      - '&eClick to purchase!'  
+    three:
+      Permission: 'falconseeker.hi'
+      Material: 'DIAMOND_CHESTPLATE'
+      Name: '&eDiamond Chestplate'
+      Slot: 16
+      Cost: 500
+      Lore:
+      - '&7Auto-Equips on buy.'
+      - '&7'
+      - '&7Lost on death.'
+      - '&7Cost: &6500g'
+      - '&eClick to purchase!'  
+    four:
+      Permission: 'falconseeker.hi'
+      Material: 'DIAMOND_BOOTS'
+      Name: '&eDiamond Boots'
+      Slot: 17
+      Cost: 300
+      Lore:
+      - '&7Auto-Equips on buy.'
+      - '&7'
+      - '&7Lost on death.'
+      - '&7Cost: &6300g'
+      - '&eClick to purchase!'       
+#####################
+#  _   _  _      __ #
+# |_) |_ |_) |/ (_  #
+# |   |_ | \ |\ __) #
+#####################          
+  Perks:
+    one:
+      Permission: 'falconseeker.hi' #Permission needed to click the item and equip the perk
+      Material: 'GOLDEN_APPLE' #List of materials can be found here - INSERT LINK HERE FOR MATERIALS
+      Name: '&aGolden Heads' #The name of the item
+      Slot: 10 #Slot in which the item will appear in.
+      Perk-Type: 'Golden Head'
+      Lore:
+      - '&7Golden apples you earn turn'
+      - '&7into &6Golden Heads'
+      - ' '
+      - '&eClick to select!'     
+    two:
+      Permission: 'falconseeker.hi'
+      Material: 'FISHING_ROD'
+      Name: '&aFishing Rod'
+      Slot: 11
+      Perk-Type: 'Fishing Rod'
+      Lore:
+      - '&7Spawn with a fishing rod'
+      - ' '
+      - '&eClick to select!'  
+    three:
+      Permission: 'falconseeker.hi'
+      Material: 'LAVA_BUCKET'
+      Name: '&aLava Bucket'
+      Slot: 12
+      Perk-Type: 'Lava Bucket'
+      Lore:
+      - '&7Spawn with a lava bucket'
+      - ' '
+      - '&eClick to select!' 
+    five:
+      Permission: 'falconseeker.hi'
+      Material: 'REDSTONE'
+      Name: '&aStrength-Chaining'
+      Slot: 13
+      Perk-Type: 'Strength-Chaining'
+      Lore:
+      - '&c+8% damage &7for 7 seconds'
+      - '&7stacking on kill'
+      - '&7 '
+      - '&eClick to select!' 
+    six:
+      Permission: 'falconseeker.hi'
+      Material: 'BOW'
+      Name: '&aEndless Quiver'
+      Slot: 14
+      Perk-Type: 'Endless Quiver'
+      Lore:
+      - '&7Get &f3 arrows &7on arrow'
+      - '&7hit.'
+      - '&7 '
+      - '&eClick to select!' 
+    seven:
+      Permission: 'falconseeker.hi'
+      Material: 'COBBLESTONE'
+      Name: '&aMineman'
+      Slot: 15
+      Perk-Type: 'Mineman'
+      Lore:
+      - '&7Spawn with &f24 cobblestone'
+      - '&7and a diamond pickaxe.'
+      - '&7 '
+      - '&7+&f3 blocks &7on kill.'
+      - '&7 '
+      - '&eClick to select!' 
+ 
+    eight:
+      Permission: 'falconseeker.hi'
+      Material: 'CHAINMAIL_HELMET'
+      Name: '&aSafety-First'
+      Slot: 16
+      Perk-Type: 'Safety First'
+      Lore:
+      - '&7Spawn with a helmet.'
+      - '&7 '
+      - '&eClick to select!' 
+ 
+    four:
+      Permission: 'falconseeker.hi'
+      Material: 'ARROW'
+      Name: '&aGo Back'
+      Slot: 22
+      Perk-Type: 'Go Back'
+      Lore:
+      - '&7To permanent upgrades.'
+
+      

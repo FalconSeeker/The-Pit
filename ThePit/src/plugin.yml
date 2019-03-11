@@ -1,0 +1,52 @@
+main: me.falconseeker.thepit.ThePit
+version: 1.2
+author: Falcon_Seeker
+name: ThePitV2
+softdepend: [PlaceholderAPI]
+commands:
+  protect:
+    description: Protects the spawn region after selecting with gold axe.
+    usage: /protect
+  blood:
+    description: Opens the death animation gui, custom feature of the pit by Falcon.
+    usage: /blood
+  dropitem:
+    description: Starts gold drops at pre selected 
+    usage: /dropitem
+  setgold:
+    description: Type /setgold to set locations to spawn gold
+    usage: /setgold
+  goldstart:
+    description: Starts Gold Spawning In Locations From /setgold
+    usage: /goldstart
+  thepitreload:
+    description: Reloads the plugin
+    usage: /thepitreload
+  perks:
+    description: Perks and upgrades
+    usage: /perks
+  thepit:
+    description: Help menu
+    usage: /thepit
+  shop:
+    description: Opens the shop
+    aliases: [shop]
+    usage: /shop
+  stats:
+    description: Track players dubs 
+    usage: /stats
+  setkillstats:
+    description: Track players dubs 
+    usage: /stats
+  setdeathstats:
+    description: Track players dubs 
+    usage: /stats
+  respawn:
+    description: respawns the player when they took too many L's
+    usage: /respawn
+  gold:
+    description: respawns the player when they took too many L's
+    usage: /gold
+  levelup:
+    description: respawns the player when they took too many L's
+    usage: /levelup
